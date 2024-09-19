@@ -15,18 +15,26 @@ public class thyoogabooga {
         System.out.print("Is liam ooga booga?!?! ");
         String response2 = scanner.nextLine();
         if (response2.equals("yes") && !response1.equals("yes")) {
-            System.out.println("correct!");
+            System.out.println("nuh uh!");
         }
+        System.out.print(" How old you🤨?");
 
-        scanner.close();
+
+        Integer response3 = Integer.valueOf(scanner.nextLine());
+        if (response3.equals(100)) {
+            System.out.println("😭😭🙏");
+        } else if (response3.equals(0)) {
+            System.out.println("so you were just born? cool.");
+            scanner.close();
         for (int i = 0; i < 310; i++) {
-            System.out.println("it has been " + i  + " days since josh started playing brawl stars.");
-        }
-        int i = 0;
-        while (i < 5) {
-            System.out.println(i);
-            i++;
+                System.out.println("it has been " + i + " days since josh started playing brawl stars.");
+            }
+            int i = 0;
+            while (i < 5) {
+                System.out.println(i);
+                i++;
 
+            }
         }
     }
 }
